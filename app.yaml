@@ -1,4 +1,5 @@
 # app.yamlruntime: nodejs10
+runtime: nodejs10
 handlers:
     - url: /(.*\..+)$
       static_files: dist/\1
@@ -6,5 +7,4 @@ handlers:
     - url: /.*
       static_files: dist/index.html
       upload: dist/index.html
-      runtime: nodejs10
     
