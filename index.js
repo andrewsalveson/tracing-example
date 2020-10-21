@@ -1,7 +1,7 @@
 require("@google-cloud/trace-agent").start();
 const express = require('express');
 const app = express();
-const port = 80;
+const port = process.env.PORT || 80;
 app.use((req, res, next) => {
     console.log('Time: ', Date.now());
     next();
