@@ -1,8 +1,12 @@
 {
   "name": "tracing-example",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "git@github.com:andrewsalveson/tracing-example",
   "author": "Andrew Salveson <andrewsalveson@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/trace-agent": "^5.1.1",
+    "express": "^4.17.1"
+  }
 }
