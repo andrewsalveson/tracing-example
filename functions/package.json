@@ -1,0 +1,7 @@
+{
+    "name": "tracing-functions",
+    "version": "1.0.0",
+    "dependencies": {
+        "@google-cloud/trace-agent": "^5.1.1"
+    }
+}
